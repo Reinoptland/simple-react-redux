@@ -1,6 +1,9 @@
 export default (state = 0, { type }) => {
     switch (type) {
-      default:
-        return state
+        case 'INCREMENT':
+            return state + 1
+    
+        default:
+            return state
     }
 }
