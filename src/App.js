@@ -32,7 +32,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <h1>{ this.props.counter } </h1>
-        <button onClick={this.incrementCounter}>+</button> 
+        <button onClick={incrementCounter}>+</button> 
         <button onClick={this.toggleLightSwitch}>LIGHT!</button> 
       </div>
     );
