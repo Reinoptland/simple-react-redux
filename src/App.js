@@ -13,7 +13,7 @@ class App extends Component {
 
   toggleLightSwitch = () => {
     console.log('CHECK YOURSELF <MAN')
-    this.props.toggle()
+    toggle()
   }
 
   render() {
@@ -46,4 +46,4 @@ const mapStateToProps = state => {
   }
 }
 
-export default connect(mapStateToProps, { increment, toggle })(App)
+export default connect(mapStateToProps, { increment })(App)
